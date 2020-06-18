@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/_21_dbNameEt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="DB이름을 입력" />
+
+        <Button
+            android:id="@+id/_21_dbCreateBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="DB 생성" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/_21_tableNameEt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="Table 이름을 입력" />
+
+        <Button
+            android:id="@+id/_21_tableCreateBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Table 생성" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/_21_empNameEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="이름 입력" />
+
+        <EditText
+            android:id="@+id/_21_empAgeEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="나이 입력" />
+
+        <EditText
+            android:id="@+id/_21_empMobileEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="전화번호 입력" />
+
+        <Button
+            android:id="@+id/_21_empInsertBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="사용자 입력" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/_21_empSelectBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="리스트 출력" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/_21_resultTv"/>
+
+    </ScrollView>
+
+</LinearLayout>

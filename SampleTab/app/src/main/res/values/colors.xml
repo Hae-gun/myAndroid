@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorFirst">#9C27B0</color>
+    <color name="colorSecond">#8BC34A</color>
+    <color name="colorThird">#FF5722</color>
+
+<!--    <color name="mySelected">-->
+<!--        <selector xmlns:android="http://schemas.android.com/apk/res/android">-->
+<!--            <item android:color="#51032d" android:state_checked="true" />-->
+<!--            <item android:color="#CFD8DC" />-->
+<!--        </selector>-->
+<!--    </color>-->
+</resources>

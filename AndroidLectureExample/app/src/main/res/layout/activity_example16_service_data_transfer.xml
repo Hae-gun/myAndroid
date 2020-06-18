@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="서비스의 결과가 출력"
+        android:textSize="10pt"
+        android:id="@+id/_16_01_dataFormServiceTv"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Servcie에 전달할 내용"
+        android:id="@+id/_16_02_dataToServiceEt"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Service 시작"
+        android:id="@+id/_16_03_dataToServiceBtn"/>
+
+</LinearLayout>

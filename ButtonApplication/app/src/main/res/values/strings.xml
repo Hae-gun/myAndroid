@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ButtonApplication</string>
+    <string name="buttonString">클릭클릭</string>
+</resources>

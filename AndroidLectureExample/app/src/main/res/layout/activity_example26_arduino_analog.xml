@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/_26_resultTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10pt" />
+
+
+    <androidx.appcompat.widget.AppCompatSeekBar
+        android:id="@+id/_26_SeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="받아오기"
+        android:id="@+id/_26_Btn"/>
+
+
+</LinearLayout>
